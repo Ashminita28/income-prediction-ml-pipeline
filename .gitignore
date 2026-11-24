@@ -1,3 +1,21 @@
 # Virtual Environment
 .venv/
 venv/
+env/
+ENV/
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE and OS specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
